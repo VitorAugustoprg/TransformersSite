@@ -1,0 +1,89 @@
+body {
+    background-color: #1f1f1f;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: overline;
+}
+table {
+    border: 1px solid white;
+    color: #c2d4f1;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+table td {
+    padding: 10px;
+}
+.perfil-prime {
+    width: 220px;
+    height: 320px;
+    background-image: url('img/perfilPrime.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.txt-prime {
+    color: rgb(214, 36, 36);
+    text-decoration: none;
+    font-style: italic;
+}
+.perfil-bumblebee {
+    width: 220px;
+    height: 320px;
+    background-image: url('img/perfilBumblebee.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.txt-bee {
+    color: yellow;
+    text-decoration: none;
+    font-style: italic;
+}
+.perfil-arcee {
+    width: 220px;
+    height: 320px;
+    background-image: url('img/perfilArcee.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.txt-arcee {
+    color: pink;
+    text-decoration: none;
+    font-style: italic;
+}
+.txt-dub {
+    text-decoration: none;
+    font-family: cursive;
+    color: #3366cc;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 25pt;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+iframe {
+    margin-top: 100px;
+}
+.arrow-back {
+    background-color: #ffff;
+    width: 50px;
+    border-radius: 12pt;
+    margin: 100px;
+}
+.arrow-back:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
